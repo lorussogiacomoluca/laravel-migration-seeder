@@ -1,0 +1,9 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
