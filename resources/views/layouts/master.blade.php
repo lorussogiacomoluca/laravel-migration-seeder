@@ -10,8 +10,11 @@
 </head>
 
 <body>
-    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center bg-dark ">
-        <div class="row text-danger fw-bold fs-1">Tabellone treni</div>
+    <div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center bg-dark ">
+        <div class="row text-danger fw-bold fs-1 my-3">
+            <div class="col">
+                Tabellone treni</div>
+        </div>
         <div class="row w-100">
             <div class="col">
                 @yield('content')
